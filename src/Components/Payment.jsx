@@ -19,7 +19,7 @@ const Payment = () => {
                 <p className='text-xs text-white pt-3'>EXPIRATION DATE</p>
                 <span className='text-xs text-white'>03/24</span>
 
-                <div className='flex justify-between items-center pt-6'>
+                <div className='flex justify-between items-center pt-2'>
                     <div>
                         <h3 className='text-white font-xs font-semibold'>John Deo</h3>
                     </div>
