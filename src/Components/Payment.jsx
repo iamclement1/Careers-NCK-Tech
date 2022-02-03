@@ -7,8 +7,8 @@ import Discover from '../assets/Discover.png'
 
 const Payment = () => {
     return (
-    <div className='flex justify-between p-12 pt-0'>
-        <div className='md:w-2/6'>
+    <div className='flex justify-between p-12 pt-0 md:block lg:flex font-BaiJamjuree '>
+        <div className='lg:w-2/6 md:items-center'>
             <h2 className='text-gray-500 font-semibold text-xl'>Payment Information</h2>
             <span className='text-gray-500 text-xs'>Choose your mode of payment</span>
 
@@ -32,9 +32,9 @@ const Payment = () => {
             
         </div>
         <div>
-            <div className='flex justify-between'>
+            <div className='flex justify-between md:items-center sm:min-w-full'>
                 <div></div>
-                <div className='flex items-center pr-8 mr-4 space-x-7'>
+                <div className='flex items-center pr-8 mr-4 space-x-7 sm:-ml-16'>
                     <div className='flex items-center space-x-3 mr-6'>
                         <img className='w-8' src= {Visa} alt="Visa-logo" />
                         <img className='w-12 h-2' src= {Discover} alt="Discover-logo" />
@@ -45,7 +45,7 @@ const Payment = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full pt-8 '>
+            <div className='w-full pt-8'>
                 <form className='text-black'>
                     <div className='flex mr-8 text-black'>
                         <div className='mr-3'>

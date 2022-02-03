@@ -2,7 +2,7 @@ import React from 'react';
 
 const Amount = () => {
     return (
-        <div className='p-12 pt-0'>
+        <div className='p-12 pt-0 md:w-full font-BaiJamjuree'>
             <div>
                 <hr />
             </div>
@@ -24,7 +24,7 @@ const Amount = () => {
             </div>
             <div className='flex justify-between pt-4'>
                 <div className='font-semibold'>
-                    <h2>Promotional Code:<span className='text-gray-500'>Z4KXLM9A</span></h2>
+                    <h2>Promotional Code: <span className='text-gray-400'>Z4KXLM9A</span></h2>
                     
                 </div>
                 <div className='font-medium'>

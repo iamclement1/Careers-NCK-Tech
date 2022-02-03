@@ -5,10 +5,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': '640px',
+      'sm': '576x',
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      'md': '960px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
@@ -20,7 +20,11 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        BaiJamjuree: 'BaiJamjuree, sans-serif'
+      }
+    },
   },
   plugins: [],
 }

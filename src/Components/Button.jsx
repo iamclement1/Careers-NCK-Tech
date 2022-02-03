@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = () => {
     return (
-        <div className='pt-4 md:w-full'>
+        <div className='pt-4 md:w-full font-BaiJamjuree'>
             <button className="bg-blue-500 hover:bg-blue-500 text-white font-bold py-4 px-60 rounded focus:outline-none focus:shadow-outline" type="button">
                 Add Card
             </button>
