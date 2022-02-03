@@ -4,8 +4,8 @@ import Button from './Button';
 
 const Payment = () => {
     return (
-    <div className='flex justify-between p-12 pt-0'>
-        <div className='md:w-2/6 '>
+    <div className='flex justify-between p-12 pt-0 sm:flex'>
+        <div className='md:w-2/6'>
             <h2 className='text-gray-500 font-semibold text-xl'>Payment Information</h2>
             <span className='text-gray-500 text-xs'>Choose your mode of payment</span>
 
