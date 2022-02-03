@@ -3,3 +3,8 @@
 ## Welcome to Landing Light
 
 This is a [React.js + tailwind](https://reactjs.org/) project bootstrapped with [`vite`](https://vitejs.dev/guide/).
+
+<!-- ## [GDSC-KWASU Blog](https://blog.dsckwasu.club); -->
+
+## Installation
+### After cloning the [repository](https://github.com/iamclement1/Careers-NCK-Tech) kindly run npm install to get all dependencies used in the project on your local machine.
