@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 // import { Sim } from '../assets/sim.png'
 
 const Payment = () => {
@@ -66,9 +67,11 @@ const Payment = () => {
                         </label>
                     </div>
                 </form>
+                <Button />
             </div>
         </div>
     </div>
+    
     )
 }
 
