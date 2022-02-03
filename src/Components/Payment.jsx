@@ -7,8 +7,8 @@ import Discover from '../assets/Discover.png'
 
 const Payment = () => {
     return (
-    <div className='flex justify-between p-12 pt-0 md:block lg:flex font-BaiJamjuree '>
-        <div className='lg:w-2/6 md:items-center'>
+    <div className='md:flex sm:flex-col justify-between p-12 pt-0 font-BamJaijuree'>
+        <div className='w-full md:w-2/5 md:items-center'>
             <h2 className='text-gray-500 font-semibold text-xl'>Payment Information</h2>
             <span className='text-gray-500 text-xs'>Choose your mode of payment</span>
 
