@@ -9,7 +9,7 @@ function Header() {
       <nav className='flex justify-between text-lg font-mono pb-20 font-semibold'>
         <div></div>
         <div>
-          <ul className='flex mr-12 text-gray-700'>
+          <ul className='flex mr-12 text-gray-700 cursor-pointer'>
             <li className='mr-12'>TRIPS</li>
             <li className='mr-10'>RECENTLY VIEWED</li>
             <li>BOOKED</li>
