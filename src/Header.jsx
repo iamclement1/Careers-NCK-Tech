@@ -7,7 +7,7 @@ function Header() {
 
   return (
     <div className="App p-12 pb-0">
-      <nav className='flex justify-between text-lg font-mono pb-20 font-semibold sm:flex sm:text-center sm:text-sm'>
+      <nav className='flex justify-between text-lg font-inter pb-20 font-semibold sm:flex sm:text-center sm:text-sm'>
         <div></div>
         <div>
           <ul className='flex mr-12 text-gray-700 cursor-pointer items-center'>

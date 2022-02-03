@@ -34,10 +34,15 @@ const Payment = () => {
         <div>
             <div className='flex justify-between'>
                 <div></div>
-                <div className='flex items-center pr-8 mr-4'>
-                    <img className='w-10' src= {Visa} alt="Visa-logo" />
-                    <img className='w-14 h-2' src= {Discover} alt="Discover-logo" />
-                    <img className='w-14' src={Paypal} alt=" Paypal-logo" />
+                <div className='flex items-center pr-8 mr-4 space-x-7'>
+                    <div className='flex items-center space-x-3 mr-6'>
+                        <img className='w-8' src= {Visa} alt="Visa-logo" />
+                        <img className='w-12 h-2' src= {Discover} alt="Discover-logo" />
+                    </div>
+                    <div className='flex items-center space-x-2'>
+                        <div className='w-4 h-4 rounded-full bg-gray-200'></div>
+                        <img className='w-14 ' src={Paypal} alt=" Paypal-logo" />
+                    </div>
                 </div>
             </div>
             <div className='w-full pt-8 '>
