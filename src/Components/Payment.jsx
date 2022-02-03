@@ -1,6 +1,9 @@
 import React from 'react';
 import Button from './Button';
-// import { Sim } from '../assets/sim.png'
+import  Sim  from '../assets/sim.png'
+import Paypal from '../assets/Paypal.png'
+import Visa from '../assets/visa.png';
+import Discover from '../assets/Discover.png'
 
 const Payment = () => {
     return (
@@ -12,8 +15,8 @@ const Payment = () => {
             <div className='bg-gradient-to-r from-pink-500 to-purple-500 p-8  rounded-md'>
                 <p className='text-xs text-white font-semibold'>CARD NUMBER</p>
                 <span className='text-xs text-white pt-2'>4324543393821030</span>
-                {/* <img src={ Sim } alt="image" /> */}
-                <p className='text-xs text-white pt-12'>EXPIRATION DATE</p>
+                <img src={ Sim } alt="image" className='w-12 pt-2' />
+                <p className='text-xs text-white pt-3'>EXPIRATION DATE</p>
                 <span className='text-xs text-white'>03/24</span>
 
                 <div className='flex justify-between items-center pt-6'>
@@ -29,15 +32,22 @@ const Payment = () => {
             
         </div>
         <div>
-            <div>Brand Logo</div>
+            <div className='flex justify-between'>
+                <div></div>
+                <div className='flex items-center pr-8 mr-4'>
+                    <img className='w-10' src= {Visa} alt="Visa-logo" />
+                    <img className='w-14 h-2' src= {Discover} alt="Discover-logo" />
+                    <img className='w-14' src={Paypal} alt=" Paypal-logo" />
+                </div>
+            </div>
             <div className='w-full pt-8 '>
-                <form action="" className='text-black'>
+                <form className='text-black'>
                     <div className='flex mr-8 text-black'>
                         <div className='mr-3'>
-                            <label class="block text-gray-400 text-xs mb-2" for="title">
+                            <label className="block text-gray-400 text-xs mb-2" for="title">
                                 Credit card number
                             </label>
-                            <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="cardNumber text-sm" type="text" placeholder="4324 5433 9382 1030"></input>
+                            <input className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="cardNumber text-sm" type="text" placeholder="4324 5433 9382 1030"></input>
                         </div>
                         <div>
                             <label class="block text-gray-400 text-xs mb-2" for="title">
