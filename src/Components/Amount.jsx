@@ -34,9 +34,9 @@ const Amount = () => {
             <div className='pt-10'>
                 <hr />
             </div>
-            <div className='flex justify-between pt-4'>
+            <div className='flex flex-wrap flex-col-reverse md:flex-row md:justify-between lg:justify-between md:items-center pt-4'>
                 <div className='font-semibold'>
-                    <button class="bg-blue-500 hover:bg-blue-500 text-white font-bold py-4 px-14 rounded focus:outline-none focus:shadow-outline" type="button">
+                    <button class="bg-blue-500 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded focus:outline-none focus:shadow-outline" type="button">
                         Complete Payment
                     </button>
                 </div>
