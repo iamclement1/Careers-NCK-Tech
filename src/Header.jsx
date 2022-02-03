@@ -6,7 +6,7 @@ function Header() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App p-12 pb-0">
+    <div className="App p-12 pb-0 sm:text-center ">
       <nav className='flex justify-between text-lg font-inter pb-20 font-semibold sm:flex sm:text-center sm:text-sm'>
         <div></div>
         <div>
